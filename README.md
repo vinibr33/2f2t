@@ -1,3 +1,3 @@
-# Segundo Trimestre - mobile-first
+# Segundo trimestre - Mobile-first
 
-Vinicius Lopes - N°35
+André L.Sampaio N°06
