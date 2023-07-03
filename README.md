@@ -1,3 +1,2 @@
-# Segundo trimestre - Mobile-first
-
-Vinicius Lopes - N°35
+# Segundo Trimestre-mobile-first
+Vinicius Lopes -  N°35
