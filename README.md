@@ -1,2 +1,2 @@
-# Segundo Trimestre-mobile-first
-Vinicius Lopes -  N°35
+# segundo trimestre - mobile-first
+Beatriz Beanhossi Lopes - N°10

@@ -115,25 +115,51 @@ ul{
     transform: rotate(45deg);
     top:0;
 }
+.conteudo{
+    width: 100vw;
+    display: grid;
+}
+.definicao {
+    display: block;
+    width: 100vw;
 
+}
+#droga {
+    display: none;
+}
+
+.geral{
+    width: 100vw;
+}
+
+.item1 {
+    width: 100%;
+}
 
 .rodape {
     width: 100vw;
     text-align: center;
+    color: #110f0f;
+    background-color: rgb(197, 175, 212);
 }
 
-.conteudo {
-    background-color: rgb(130, 130, 219);
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-areas: "geral";
-}
+
 .geral {
     width: 100vw;
-    grid-area: geral;
+    grid-area: "geral";
 }
 
-@media (min-width: 600px) {
+div[class^="item-"]{
+    background-color: rgb(75, 75, 209);
+    height: 200px;
+    margin-top: 5px;
+    grid-area: "info";
+}
+.info{
+    display: grid;
+}
+
+@media (min-width: 820px) {
     .nav{
         max-height: none;
         top: 0;
@@ -159,15 +185,28 @@ ul{
         width: 15vh;
         margin: 5px;
     }
-    .conteudo {
+
+    .geral {
+        width: 70vw;
+        padding: 5px;
+
+    }
+
+    .item1 {
+        display: block;
+    
+    }
+    #drogas {
+        display: block;
+        width: 50%;
+    }
+    .info{
         grid-template-columns: 50% 50%;
-        grid-template-areas: 
-         "geral geral";
+        grid-area: "item" "item";
     }
-
 }
 
-@media (min-width: 1228px) {
+@media (min-width: 1024px) {
     .nav{
         max-height: none;
         top: 0;
@@ -193,10 +232,9 @@ ul{
         width: 15vh;
         margin: 5px;
     }
-    .conteudo {
+    .info{
         grid-template-columns: 33% 34% 33%;
-        grid-template-areas: 
-         "geral geral geral";
+        grid-area: "item" "item" "item";
     }
-
+  
 }
