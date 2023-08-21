@@ -1,2 +1,2 @@
 # segundo trimestre - mobile-first
-Beatriz Beanhossi Lopes - N°10
+Vinicius Lopesb - N°35
