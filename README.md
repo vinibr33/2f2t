@@ -1,2 +1,2 @@
 # segundo trimestre - mobile-first
-Vinicius Lopesb - N°35
+Vinicius Lopes - N°35
